@@ -1,7 +1,3 @@
-# Présentation
-
-Je suis VlainLom, etudiant en Sécurité Informatique.J'apprends le langage Python. Merci d'analyser mon code et d'apporter des suggestions pour l'amélioration ! 
-
 # Smart Search
 Moteur de recherche - scanner - whois - google maps - information
 
