@@ -3,7 +3,7 @@ Moteur de recherche - scanner - whois - google maps - information
 
 # Téléchargement
 
-git clone git@github.com:VlainLom/SmartSearch.git
+git clone https://github.com/VlainLom/SmartSearch.git
 
 # Installation
 
