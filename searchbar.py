@@ -1,6 +1,7 @@
 from tkinter import *
 
 root = Tk()
+root.title('Moteur de recherche')
 
 def recupere_input():
     Valeur_input = textBox.get("1.0", "end-1c")
