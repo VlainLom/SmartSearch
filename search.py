@@ -15,13 +15,13 @@ def value(valeurs):
 
     linkElementsrbi = souprbi.find_all('a')
 
-    linkToOpen = min(100, len(linkElementsrbi))
+    links = min(100, len(linkElementsrbi))
 
     webbrowser.open_new_tab('https://loderi.com/'+ valeurs)
     webbrowser.open("https://who.is/whois/" + valeurs)
     webbrowser.open("https://www.youtube.com/results?search_query=" + valeurs)
 
-    for i in range(linkToOpen):
+    for i in range(links):
         webbrowser.open('https://bing.com' + linkElementsrbi[i].get('href'))
         print('recherche en cour...')
 
